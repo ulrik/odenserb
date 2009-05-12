@@ -1,7 +1,7 @@
 Feature: Manage Users
   In order to play a game
   As a user
-  I want login
+  I want register and then login
   
 Scenario: Register 
   Given I have no user with username Arne
@@ -12,8 +12,3 @@ Scenario: Register
   And I press "Create"
   Then I have a user with username Arne
   
-#Scenario: Login
-#  Given I have no current user
-#  When I type username and password
-#  And I click login
-#  Then I should see "Wellcome"
